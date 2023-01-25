@@ -1,0 +1,106 @@
+* {
+    font-family: "Gill Sans", sans-serif;
+}
+
+body {
+    background-image: url('https://free4kwallpapers.com/uploads/originals/2020/09/04/neon-background--wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.log {
+    text-align: center;
+    color: white;
+    display: none;
+    font-size: 30px;
+    padding-left: 50px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(19, 182, 46)
+}
+
+.close {
+    position: relative;
+}
+
+.close>img {
+    width: 30px;
+    position: absolute;
+    left: 850px;
+    top: 20px;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 80px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left img {
+    width: 320px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.input1,
+.input2 {
+    position: relative;
+}
+
+.input1>img,
+.input2>img {
+    position: absolute;
+    width: 20px;
+    top: 10px;
+    left: 15px;
+}
+
+.input1>input,
+.input2>input,
+.submit>input {
+    padding-left: 50px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(182, 182, 170);
+    border: none;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit>input {
+    padding: 0;
+    width: 350px;
+    background-color: rgb(21, 184, 62);
+    font-size: 15px;
+    color: white;
+}
+
+.forgot {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(21, 184, 62);
+}
